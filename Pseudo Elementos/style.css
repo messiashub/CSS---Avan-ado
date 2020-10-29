@@ -1,0 +1,65 @@
+/*Um pseudoelemento CSS é usado para estilizar partes específicas de um elemento.
+
+Por exemplo, pode ser usado para:
+
+Estilize a primeira letra ou linha de um elemento
+Insira conteúdo antes ou depois do conteúdo de um elemento*/
+
+p::first-line{       /* primeira linha */
+    color: blue;
+}
+p::first-letter{
+    font-size: 2rem;
+    color: red;
+}
+
+h1::first-letter{   /* primeira letra */
+    color: red;
+    font-size: 4rem;
+}
+
+
+/*  Before  = antes
+ O ::before pseudoelemento pode ser usado para inserir algum conteúdo antes do conteúdo de um elemento. */
+
+li{
+    list-style: none;
+}
+/* exemplo 1 */
+
+/* li::before{
+    content: "A = ";
+    color: blue;
+    font-size: 1.5rem;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+} */
+
+/* exemplo 2 */
+li::before{
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(/Pseudo\ Elementos/angribirds.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* After = depois
+   O ::after pseudoelemento pode ser usado para inserir algum conteúdo após o conteúdo de um elemento. */
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* Selection  =  selecionar
+
+    O ::selection pseudoelemento corresponde à parte de um elemento que é selecionado por um usuário.
+
+    As seguintes propriedades CSS pode ser aplicada a ::selection: color, background, cursor, e outline.
+ */
+
+p::selection{
+    color: blue;
+    background-color: red;
+}
