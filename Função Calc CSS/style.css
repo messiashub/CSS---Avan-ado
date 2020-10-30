@@ -1,0 +1,46 @@
+/* Exemplo1 */
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+.container{
+    width: 100%;
+    background-color: blue;
+}
+
+.primeira{
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    width: calc(100% - 300px);
+    height: 300px;
+    background-color: yellow;
+}
+.segunda{
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+} */
+
+
+/* Exemplo 2 */
+
+/* A função calc () executa um cálculo a ser usado como o valor da propriedade. */
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+
+.primeira{
+    width: calc(100% - 200px);
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
