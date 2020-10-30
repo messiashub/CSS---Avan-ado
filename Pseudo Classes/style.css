@@ -1,0 +1,8 @@
+input:focus{      /* O :focus seletor é usado para selecionar o elemento que está em foco. */
+    color: blue;
+}
+
+li:first-child{  /*O :first-child seletor é usado para selecionar o seletor especificado, apenas se for o primeiro filho de seu pai.*/
+    color: red;
+}
+
