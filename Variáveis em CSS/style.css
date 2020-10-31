@@ -1,0 +1,24 @@
+
+
+:root{
+    --var-color: red;
+    --var-size:300px;
+}
+
+.p2{
+    color: var(--var-color);
+}
+.p5{
+    color: var(--var-color);
+    
+}
+.quadrado1{
+    width: var(--var-size);
+    height: var(--var-size);
+    background-color: green;
+}
+.quadrado2{
+    width: var(--var-size);
+    height: var(--var-size);
+    background-color: var(--var-color);
+}
