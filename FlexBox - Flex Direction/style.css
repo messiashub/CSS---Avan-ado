@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: row;   /* coluna ou linha */
     background-color: darkgrey;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
     height: 400px;
     color: white;
 
@@ -12,11 +15,15 @@
     height: 100px;
 }
 .r1{
+    flex-grow: 0;
     background-color: red;
 }
 .r2{
+    /* flex-shrink: 0;  */  /* flex-shrink: no valor 0 não deixa o item diminuir; */
+    flex-grow: 2;    /* flex-grow valor 2- vai aumentar duas vezes o tamanho em relação aos outros itens */
     background-color: blue;
 }
 .r3{
+    flex-grow: 3;  /* flex-grow valor 3- vai aumentar tres vezes o tamanho em relação aos outros itens */
     background-color: green;
 }
