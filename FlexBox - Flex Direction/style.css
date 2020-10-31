@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;   /* coluna ou linha */
+    background-color: darkgrey;
+    flex-wrap: wrap;
+    height: 400px;
+    color: white;
+
+}
+.rect{
+    width: 150px;
+    height: 100px;
+}
+.r1{
+    background-color: red;
+}
+.r2{
+    background-color: blue;
+}
+.r3{
+    background-color: green;
+}
