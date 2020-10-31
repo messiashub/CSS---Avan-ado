@@ -1,0 +1,26 @@
+
+/* A transform propriedade aplica uma transformação 2D ou 3D a um elemento. Esta propriedade permite girar, dimensionar, mover, inclinar, etc., elementos. */
+
+img{
+    width: 320px;
+    display:block;
+}
+
+.a{
+    
+    transform: translate(100px, 50px);
+    transform: rotate(45Deg);  /* girar 45 graus */
+}
+
+.b{
+    margin: auto;
+    transform: scale(1.5);   /* scale: dimensionar */
+}
+
+.c{
+    transform: skew(40deg); /* O skew()método inclina um elemento ao longo dos eixos X e Y pelos ângulos fornecidos.*/
+}
+
+.d{
+    transform: translate(500px,-150px);/* O translate()método move um elemento de sua posição atual (de acordo com os parâmetros dados para o eixo X e o eixo Y). */
+}
