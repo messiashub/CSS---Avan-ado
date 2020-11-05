@@ -1,0 +1,35 @@
+.container{
+    height: 500px;
+    color: white;
+    display: grid;
+    padding: 10px;
+    background-color: black;
+
+    grid-template: auto auto /auto auto auto;
+    gap: 10px;
+
+    justify-items: center;  /* Alinhamento horizontal ao centro */
+    align-items: center;   /* Alinhamento vertical ao centro */
+
+     /* justify-content e align-content */
+    /* A justify-content alinha os itens do contêiner flexível quando os itens não usam todo o espaço disponível no eixo principal (horizontalmente). */
+
+    /*A align-content modifica o comportamento da propriedade flex-wrap . É semelhante a itens de alinhamento, mas em vez de alinhar itens flexíveis, ele alinha as linhas flexíveis.*/
+
+    justify-content: flex-end;
+    align-content: center;
+}
+.r1{
+    background-color: red;
+}
+.r2{
+    background-color: blue;
+}
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 100px;
+    height: 100px;
+}
