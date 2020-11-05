@@ -1,0 +1,31 @@
+.container{
+    color: white;
+    display: grid;
+    padding: 5px;
+    background-color: grey;
+
+    grid-template-rows: 200px 100px;    /* definindo o numero de linhas */
+    grid-template-columns: 1fr 2fr 1fr;/* definindo o numero de colunas */
+     /* grid-template: 200px 100px/1fr 2fr 1fr; */ /* abreviando rows e columns */
+    
+     /* Gap Espaçamento */
+    /* row-gap: 10px;
+       column-gap: 10px;*/
+
+    gap: 10px; /* abreviando */
+ 
+   
+}
+/* Pode-se usar porcentagens % */
+/* Pode-se usar valor fixo ex :150px */
+/* Pode-se usar  o valor auto: automático, ela se adapta ao  tamanho do container */
+/* Pode-se usar fr :  fração  , fica  flexível = recomendado*/
+.r1{
+    background-color: red;
+}
+.r2{
+    background-color: blue;
+}
+.r3{
+    background-color: green;
+}
