@@ -1,0 +1,18 @@
+/* CRIANDO A ANIMAÇÃO */
+/* 1 criar a animação
+   2 modificar qual propriedade?
+   3 duração */
+
+@keyframes mudaCor{  /* 1 Criando a animação */
+    from{background-color: red;}   /* 2 modificando a propriedade , estado inicial "from"*/
+    to {background-color: blue;}   /* estado final "to" */
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    animation-name: mudaCor;   /* Chamando a animação no elemento */
+    animation-duration: 5s;    /* duração */ 
+}
