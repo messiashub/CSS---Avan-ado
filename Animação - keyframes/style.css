@@ -1,17 +1,18 @@
-/* CRIANDO A ANIMAÇÃO */
-/* 1 criar a animação
-   2 modificar qual propriedade?
-   3 duração */
+/* ADICIONANDO ESTADOS A ANIMAÇÃO */
+
 
 @keyframes mudaCor{  /* 1 Criando a animação */
-    from{background-color: red;}   /* 2 modificando a propriedade , estado inicial "from"*/
-    to {background-color: blue;}   /* estado final "to" */
+    0%{background-color: red;}           /* 0% do tempo da animação */
+    25%{background-color: yellow;}       /* 25% do tempo da animação */
+    50%{background-color: yellowgreen;}  /* 50% do tempo da animação */
+    100%{background-color: blue;}        /* estado final  */
 }
 
 
 .box{
     width: 200px;
     height: 200px;
+    /* background-color: red */;
     border-style: solid;
     animation-name: mudaCor;   /* Chamando a animação no elemento */
     animation-duration: 5s;    /* duração */ 
