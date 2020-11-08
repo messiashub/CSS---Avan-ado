@@ -16,5 +16,7 @@
     border-style: solid;
     animation-name: mudaCor;   /* Chamando a animação no elemento */
     animation-duration: 5s;    /* duração */ 
-    animation-delay: 3s;     /* delay - atraso  */
+    /* animation-delay: 3s; */     /* delay - atraso  */
+    /* animation-iteration-count: 2; */ /* loop = vai animar duas vezes */
+    animation-iteration-count: infinite; /* infinite = vai  animar sempre */
 }
