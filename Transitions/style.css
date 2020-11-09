@@ -1,0 +1,26 @@
+body{
+   display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: inline-block;
+
+    margin: auto;
+    padding: 20px;
+    background: rgb(0, 68, 255);
+    color: white;
+    font-size: 30px;
+
+    /* A transition-property propriedade especifica o nome da propriedade CSS ao qual o efeito de transição se destina (o efeito de transição começará quando a propriedade CSS especificada for alterada). */
+
+    /* Nota: Sempre especifique a propriedade de duração da transição , caso contrário, a duração é 0 e a transição não terá efeito. */
+    transition-property: background-color, padding;
+    transition-duration: 500ms;
+}
+.btn:hover{
+    background: rgb(1, 1, 158);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
