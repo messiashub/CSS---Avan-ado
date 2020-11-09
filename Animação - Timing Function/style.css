@@ -1,0 +1,38 @@
+/* O animation-timing-function especifica a curva de velocidade de uma animação. */
+
+/* A curva de velocidade define o TEMPO que uma animação usa para mudar de um conjunto de estilos CSS para outro.*/
+
+/* A curva de velocidade é usada para fazer as alterações suavemente. */
+
+
+@keyframes move{
+    0% {left: -300px;}
+    100% {left: 300px;}
+}
+.box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    border-style: solid;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+
+    /* animation: move 3s linear 0s 1 normal forwards; */ /* declarando animação de forma abreviada: Sort hand*/
+}
+.div1{                                /* linear: A animação tem a mesma velocidade do início ao fim */
+    animation-timing-function: linear;
+}
+.div2{                               /* ease: Valor padrão.  A animação tem um início lento, depois rápido, antes de terminar lentamente */
+    animation-timing-function: ease;
+}
+.div3{                               /* ease-in: A animação tem um início lento */
+    animation-timing-function: ease-in;
+}
+.div4{                              /* ease-out:A animação tem um final lento */
+    animation-timing-function: ease-out;
+}
+.div5{                              /* ease-in-out */
+    animation-timing-function: ease-in-out;
+}
